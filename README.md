@@ -2,6 +2,6 @@ The navigation prediction code of the paper accepted by RO-MAN 2021: Transfer  L
 
 The TL-DCRNN implementation part is referred to
 
-# TL-DCRNN: Transfer Learning with Graph Neural Networks for Short-Term Highway Traffic Forecasting
+TL-DCRNN: Transfer Learning with Graph Neural Networks for Short-Term Highway Traffic Forecasting
 
 https://github.com/tanwimallick/TL-DCRNN
