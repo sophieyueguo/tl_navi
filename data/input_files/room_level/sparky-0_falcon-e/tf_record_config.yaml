@@ -1,0 +1,16 @@
+---
+log_level: INFO
+data:
+  batch_size: 4 #64
+  dataset_dir: part0/
+  val_batch_size: 1
+  test_batch_size: 1
+  validation_ratio: 0.1
+  test_ratio: 0.2 #0.2 orig #0.01 for train and val only, 0.0 for test
+  graph_pkl_filename: input_files/sparky-0_falcon-e/s0fe_adj_mat.pkl # generate by data process script
+  hdf_filename: input_files/sparky-0_falcon-e/h5/testbed_fe_train_9trials.h5 # generate by data process script
+  sensor_ids : input_files/sparky-0_falcon-e/s0fe_graph_sensor_locations.csv # direct input
+  graph_partitions: input_files/sparky-0_falcon-e/s0fe_graph_new.txt.part.64 # direct input
+model:
+  horizon: 12
+  seq_len: 12
